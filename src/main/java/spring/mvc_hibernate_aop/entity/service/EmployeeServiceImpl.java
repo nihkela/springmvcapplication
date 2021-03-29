@@ -10,9 +10,14 @@ import java.util.List;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
-
     @Autowired
     private EmployeeDAO employeeDAO;
+
+    @Override
+    @Transactional
+    public Employee getEmployee(int id) {
+        return employeeDAO.getEmployee(id);
+    }
 
     @Override
     @Transactional
