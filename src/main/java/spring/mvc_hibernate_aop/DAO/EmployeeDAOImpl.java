@@ -1,4 +1,4 @@
-package spring.mvc_hibernate_aop.entity.DAO;
+package spring.mvc_hibernate_aop.DAO;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import spring.mvc_hibernate_aop.entity.Employee;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository

@@ -1,4 +1,4 @@
-package spring.mvc_hibernate_aop.entity.service;
+package spring.mvc_hibernate_aop.service;
 
 import spring.mvc_hibernate_aop.entity.Employee;
 

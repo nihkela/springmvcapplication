@@ -1,4 +1,4 @@
-package spring.mvc_hibernate_aop.entity.DAO;
+package spring.mvc_hibernate_aop.DAO;
 
 import spring.mvc_hibernate_aop.entity.Employee;
 
